@@ -9,9 +9,9 @@ document.getElementById('game-config-form').addEventListener('submit', function(
     localStorage.setItem('mouse', mouse);
     localStorage.setItem('dimensions', dimensions);
 
-    console.log(`Cat: ${cat}`);
-    console.log(`Mouse: ${mouse}`);
-    console.log(`Dimensions: ${dimensions}`);
+    // console.log(`Cat: ${cat}`);
+    // console.log(`Mouse: ${mouse}`);
+    // console.log(`Dimensions: ${dimensions}`);
 
     // Redirect to the new page
     window.location.href = "https://ma562.github.io/cat_mouse_map/"; // Replace with the actual game URL
