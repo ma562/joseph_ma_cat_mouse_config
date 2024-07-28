@@ -1,3 +1,6 @@
+localStorage.removeItem('cat');
+localStorage.removeItem('mouse');
+localStorage.removeItem('dimensions');
 document.getElementById('game-config-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const cat = document.getElementById('cat-select').value;
